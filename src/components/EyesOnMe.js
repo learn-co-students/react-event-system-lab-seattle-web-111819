@@ -1,9 +1,9 @@
 // Code EyesOnMe Component Here
-import React from 'react'
+import React, { Component } from 'react'
 
-class EyesOnMe extends React.Component {
+class EyesOnMe extends Component {
 
-    // STEP 1: add functions to print out message when event fires
+    // STEP 1: add functions to print out message when events fire
     focus = () => console.log("Good!")
     blur = () => console.log("Hey! Eyes on me!")
 
